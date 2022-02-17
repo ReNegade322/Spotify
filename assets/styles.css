@@ -193,6 +193,7 @@ nav{
     display: flex;
     flex-direction: row;
     overflow-x: scroll;
+    margin-bottom: 50px;
 }
 
 .tile{
@@ -219,4 +220,57 @@ nav{
     color: #1DB954;
     padding: 16px 0 18px;
     text-align: center;
+}
+
+.footer-content{
+    padding: 50px 0 20px;
+    background-color: black;
+}
+
+.footer-columns{
+    display: flex;
+    flex-direction: column;
+    padding: 0 15px;
+}
+
+.footer-links-title{
+    font-size: 12px;
+    font-weight: 700;
+    color: #919396;
+    margin: 50px 0 22px;
+}
+
+.footer-links{
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    padding: 3px 0 15px;
+    text-decoration: none;
+}
+
+.footer-columns-social{
+    margin: 120px 15px 15px;
+}
+
+.social{
+    background-color: #222326;
+    padding: 10px;
+    border-radius: 100px;
+    margin-right: 15px;
+}
+
+.footer-info{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conf{
+    display: inline-block;
+    font-size: 10px;
+    color: #919496;
+    text-decoration: none;
+    padding: 10px 0;
+    margin-left: 15px;
+    width: fit-content;
 }
